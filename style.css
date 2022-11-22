@@ -44,12 +44,10 @@ body {
 }
 
 .sidebar a {
-    margin-left: 15px;
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
-    margin-top: 4px;
     font-size: 1.5rem;
 }
 
@@ -63,13 +61,9 @@ body {
     margin-top: 30%;
 }
 
-#first {
-    margin-top: 30px;
-}
+#first {}
 
-#last {
-    margin-bottom: 40px;
-}
+#last {}
 
 ul {
     margin-left: 15px;
