@@ -22,6 +22,9 @@ body {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     box-shadow: 3px 3px 35px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content1 {
@@ -36,11 +39,12 @@ body {
 
 }
 
-.sidebar * {
+.sidebar h1 {
     margin-left: 15px;
 }
 
 .sidebar a {
+    margin-left: 15px;
     display: block;
     color: black;
     padding: 16px;
@@ -50,17 +54,26 @@ body {
 }
 
 .sidebar p {
+    margin-left: 15px;
     color: black;
     font-size: 1.3rem;
 }
 
-.bottom {
-    display: flex;
-    flex-direction: column;
-}
-
 #email-img {
     margin-top: 30%;
+}
+
+#first {
+    margin-top: 30px;
+}
+
+#last {
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-left: 15px;
+    list-style-type: none;
 }
 
 #Opening {
@@ -73,13 +86,14 @@ body {
 
 #img {
     margin-top: 2%;
-    height: 85%;
+    height: 80%;
     width: 45%;
 }
 
 #title {
     text-align: center;
     margin: 60% 0 10% 0;
+    font-size: 2rem;
 }
 
 hr {
@@ -92,6 +106,7 @@ hr {
 
 h2 {
     margin-top: 7%;
+    font-size: 1.5rem;
 }
 
 .content2 {
@@ -110,9 +125,9 @@ h2 {
 
 .about-text {
     border-radius: 80px;
-    height: 80vh;
-    width: 800px;
-    margin: 20px 0 20px 0;
+    height: 500px;
+    width: 700px;
+    margin: 10px 0 20px 0;
     background-image: linear-gradient(0deg, rgba(29, 45, 17, 0.5) 0%, rgba(89, 112, 70, 0.5) 100%);
     display: flex;
     justify-content: space-evenly;
@@ -134,42 +149,55 @@ h2 {
 
 .project-text {
     margin: 40px 0 20px 0;
-
 }
 
 .pro {
     border-radius: 50px;
-    margin: 0 10px 40px 10px;
-    height: 200px;
-    width: 340px;
+    margin: 0 50px 40px 50px;
+    height: 320px;
+    width: 440px;
     background-image: linear-gradient(0deg, rgba(29, 45, 17, 0.5) 0%, rgba(89, 112, 70, 0.5) 100%);
     box-shadow: 1px 3px 15px black;
     font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-#one,
-#three {
-    height: 150px;
-    width: 340px;
+#one {
+    height: 250px;
+    width: 460px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    margin-right: 10%;
 }
 
 #two,
 #four {
-    height: 130px;
-    width: 200px;
+    height: 300px;
+    width: 280px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-left: 20%;
     margin-top: 5%;
 }
 
+#three {
+    height: 400px;
+    width: 480px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-right: 10%;
+}
+
+#four {
+    height: 250px;
+}
+
 #one-text,
 #three-text {
+    margin-bottom: 10px;
     color: black;
 }
 
